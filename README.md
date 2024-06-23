@@ -21,4 +21,4 @@ For Windows:
 npm run dev:win
 ```
 
-Open the example project at `localhost:5173`.
+Open the example project at `localhost:3000`.
