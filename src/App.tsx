@@ -5,7 +5,7 @@ import { useYjsStore } from './useYjsStore'
 const HOST_URL =
   import.meta.env.MODE === 'development'
     ? 'ws://localhost:1234'
-    : 'wss://tldraw.msqt.fun:4321'
+    : 'ws://raw.msqt.fun:4321'
 
 export default function YjsExample() {
   const store = useYjsStore({
